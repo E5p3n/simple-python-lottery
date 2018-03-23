@@ -81,10 +81,10 @@ def sbl_signup():
             nam = name
         for x in range(0, num):
             player_tickets.append(nam)
-            return jsonify(
-                response_type='in_channel',
-                text="%s: %s" % (confirmed_msg, num),
-            )
+        return jsonify(
+            response_type='in_channel',
+            text="%s: %s" % (confirmed_msg, num),
+        )
     except (IndexError, ValueError):
             return "%s" % ticketerror_msg
     else:
