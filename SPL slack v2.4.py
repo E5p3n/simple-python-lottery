@@ -30,7 +30,7 @@ Commands:\n
 \t`/spl_reset` delete *ALL* tickets.\n
 \t`/spl_help` see this message again.\n
 \n
-\n_Version: 2.3_
+\n_Version: 2.4_
 """
 testactive_msg = "Test entries added to list"
 
